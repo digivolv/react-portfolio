@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/a" element={<Layout />}></Route>
+        <Route path="/" element={<Layout />}></Route>
         <Route path="/s" element={<Sidebar />}></Route>
       </Routes>
     </>
