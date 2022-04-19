@@ -60,7 +60,7 @@
     
     &:after {
       content: '';
-      font-size: 9px;
+      font-size: 7.5px;
       letter-spacing: 2px;
       position:absolute;
       bottom:0;
@@ -87,6 +87,12 @@
   a.contact-link {
     &:after{
       content: 'CONTACT';
+    }
+  }
+
+  a.projects-link {
+    &:after{
+      content: 'PROJECTS';
     }
   }
 
